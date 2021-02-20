@@ -1,0 +1,27 @@
+{
+  "name": "pdfviewer",
+  "version": "1.0.0",
+  "description": "Desktop PDF viewer built using electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rallik/pdfviewer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rallik/pdfviewer/issues"
+  },
+  "homepage": "https://github.com/rallik/pdfviewer#readme",
+  "devDependencies": {
+    "electron": "^11.2.3"
+  },
+  "build": {
+    "extraResources": ["./public/**"]
+  }
+}
